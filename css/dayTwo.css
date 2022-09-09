@@ -1,0 +1,58 @@
+* {
+    border: 3px dotted red;
+    margin: auto;
+}
+img {
+    max-width: 200px;
+}
+header, main, footer {
+    max-width: 600px;
+    text-align: center;
+    padding: 1em;
+    background-color: cyan;
+}
+a, h1, nav {
+    padding: 1em;
+    margin: 1em;
+}
+h1 {
+    /* z-index: 1; */
+}
+nav {
+    background-color: cyan;
+}
+table, tr, td, th {
+    border: double 2px purple
+}
+table {
+    width: 95%;
+}
+h1:hover {
+    color: pink;
+    font-size: 72px;
+}
+.hotpink {
+    color: hotpink;
+}
+h3 {
+    color: purple;
+}
+h3:hover {
+    color: hotpink;
+    font-size: 8px;
+}
+.hotpink:hover {
+    color: purple;
+    font-size: 49px;
+}
+h2 {
+    max-width: 200px;
+}
+.main {
+    position: absolute;
+    top: 140px;
+    left: 525px;
+    /* z-index: -1; */
+    border-radius: 50%;
+    width: 125px;
+}
